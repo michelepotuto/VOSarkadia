@@ -354,6 +354,7 @@ main p {
   border-radius: 10px;
 }
 
+
 /*footer*/
 
 .content-center {
@@ -474,6 +475,19 @@ ul li:nth-child(4)::after {
 }
 /*end footer*/
 
+/* copyright */
+
+.text-white {
+  color: black!important;
+  
+}
+
+.text-white:link {
+  color: grey;
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: lighter;
+}
 
 @media (min-width: 768px) {
   .navbar-collapse.collapse {
@@ -483,6 +497,7 @@ ul li:nth-child(4)::after {
     overflow: visible;
   }
 }
+/* end copyright */
 
 @media (max-width: 768px) {
   .navbar-nav {
@@ -598,28 +613,3 @@ font-size: 20px;
 }
 
 
-@media (max-width:700px) {
-  .social-list {
-      display: block
-  }
-}
-
-.facebook {
-  background: #3b5998
-}
-
-.instagram {
-  background: #3f729b
-}
-
-.youtube {
-  background: #ff0000
-}
-
-.whatsapp {
-  background: #4dc247
-}
-
-.pinterest {
-  background: #cb2027
-}
